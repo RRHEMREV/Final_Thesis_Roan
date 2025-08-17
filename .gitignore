@@ -1,0 +1,30 @@
+# Ignore all __pycache__ files
+__pycache__/
+
+# Ignore all .ipynb_checkpoints folders
+.ipynb_checkpoints/
+
+# Ignore the entire (test) Datasets folder
+Datasets/
+Test_Datasets/
+
+# Ignore the entire exported notebooks folder
+Exported_NBs/
+
+# Ignore the entire Outputs folder
+Outputs/
+
+# Ignore the entire .venv folder
+.venv/
+
+# Ignore the Kladblok Notebook inside the Notebook directory
+Notebook/Kladblok.ipynb
+
+# Ignore the zip 
+Datasets.zip
+
+# Ignore the spatial_dict file
+Notebook/Optimal_Config/
+
+# Ignore the spatial_dict file
+Notebook_autorun_folder/Optimal_Config/

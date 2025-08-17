@@ -1,0 +1,36 @@
+[project]
+name = "Chicama"
+version = "0.1.0"
+description = "test poetry file"
+authors = [
+    {name = "RRHEMREV",email = "R.T.Rhemrev@student.tudelft.nl"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+packages = [
+    { include = "Chicama" },
+    { include = "py_banshee" }
+]
+
+dependencies = [
+    "pingouin==0.5.4",
+    "graphviz==0.20.1",
+    "pydot==2.0.0",
+    "argparse==1.1",
+    "scipy==1.13.1",
+    "numpy==1.26.4",
+    "pandas==2.2.2",
+    "matplotlib==3.9.2",
+    "seaborn==0.13.2",
+    "networkx==3.3",
+    "pydantic (>=2.11.5,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "papermill (>=2.6.0,<3.0.0)",
+    "pycopula (>=0.1.5,<0.2.0)",
+    "pyarrow (>=20.0.0,<21.0.0)",
+    "fastparquet (>=2024.11.0,<2025.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
